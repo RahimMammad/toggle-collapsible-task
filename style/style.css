@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(203, 203, 203, 0.603);
+}
+
+.navbar-main-container {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-main-container h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.navbar-main-container button {
+    width: 60px;
+    height: 40px;
+    font-size: 1.75rem;
+    border-radius: 6px;
+    border: 1px solid #00000017;
+    cursor: pointer;
+}
+
+.navbar-main-container button:hover {
+    background-color:rgba(203, 203, 203, 0.603);
+}
+
+#navbar {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vh;
+    position: fixed;
+    top: -155px;
+    transition: 1s all ease;
+    overflow: hidden;
+    z-index: 1;
+    background-color: rgba(203, 203, 203, 0.603);
+}
+
+li {
+    z-index: 1;
+}
+
+li a{
+    font-size: 1.25rem;
+    color: #000;
+    z-index: 1;
+}
+
+.navbar-list {
+    padding-left: 25px;
+    /* background-color: rgba(203, 203, 203, 0.603); */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section {
+    width: 100%;
+    padding-top: 170px;
+}
+
+.collapsible {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000;
+}
+
+.collapsible li {
+    height: 130px;
+    border-bottom: 1px solid #000;
+}
+
+.collapsible-header {
+    padding-left: 15px;
+    padding-top: 20px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    gap: 15px;
+}
+
+.collapsible-body {
+    padding-left: 15px;
+    padding-top: 15px;
+    display: none;
+}
